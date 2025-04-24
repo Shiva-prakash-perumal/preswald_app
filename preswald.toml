@@ -1,0 +1,20 @@
+[project]
+title = "Shiva's Project"
+version = "1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Shiva's Project"
+logo = "images/graduated.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.student]
+type = "csv"
+path = "data/student_habits_performance.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
